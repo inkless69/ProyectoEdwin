@@ -21,7 +21,7 @@
         rgba(100, 151, 119, 0.384) 0%,
         rgba(35, 141, 194, 0.404) 100%
       ),
-      url(/pagina/resource-database-lZKI2P-J2jE-unsplash.jpg);
+      url(./IMG/Woods.jpg);
     height: 120px;
     color: white;
     width: 100%;
@@ -79,9 +79,27 @@
   .subtitulo {
     text-align: center;
     font-weight: 300px;
+    background-image: linear-gradient(
+        120deg,
+        rgba(100, 151, 119, 0.384) 0%,
+        rgba(35, 141, 194, 0.404) 100%
+      );
     color: #5e92a0;
     margin-bottom: 40px;
     font-size: 40px;
+  }
+
+  .subs {
+    text-align: center;
+    font-weight: 200px;
+    background-image: linear-gradient(
+        140deg,
+        rgba(100, 151, 119, 0.384) 0%,
+        rgba(35, 141, 194, 0.404) 100%
+      );
+      color: #5e92a0;
+      margin-bottom: 40px;
+      font-size: 30px;
   }
   
   .galeria {
@@ -133,10 +151,7 @@
     cursor: pointer;
   }
   
-  footer {
-    background: #2c633e;
-    padding-bottom: 0.1px;
-  }
+ 
   
   .contenedor-footer {
     display: flex;
