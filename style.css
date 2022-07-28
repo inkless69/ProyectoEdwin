@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  .contenedor {
+    width: 80%;
+    max-width: 1250px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px;
+  }
+  .headNav {
+    background-image: linear-gradient(
+        120deg,
+        rgba(100, 151, 119, 0.384) 0%,
+        rgba(35, 141, 194, 0.404) 100%
+      ),
+      url(./IMG/Woods.jpg);
+    height: 120px;
+    color: white;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: white;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .menu-navegacion {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-image: linear-gradient(to top, #5e92a0 0%, #5e92a0 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    transform: translate(110%);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .spread {
+    transform: translate(0);
+  }
+  
+  .menu-navegacion a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .titulo {
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .copy {
+    font-weight: 300;
+    font-size: 25px;
+  }
+  
+  .subtitulo {
+    text-align: center;
+    font-weight: 300px;
+    background-image: linear-gradient(
+        120deg,
+        rgba(100, 151, 119, 0.384) 0%,
+        rgba(35, 141, 194, 0.404) 100%
+      );
+    color: #5e92a0;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #f2f2f2;
+  }
+
+  .subs {
+    text-align: center;
+    font-weight: 200px;
+    background-image: linear-gradient(
+        140deg,
+        rgba(100, 151, 119, 0.384) 0%,
+        rgba(35, 141, 194, 0.404) 100%
+      );
+      color: #5e92a0;
+      margin-bottom: 40px;
+      font-size: 30px;
+      color: #f2f2f2;
+  }
+  
+  .galeria {
+    background: #f2f2f2;
+  }
+  
+  .img-galeria {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  .imagen-close {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .mostrar {
+    transform: translate(0);
+  }
+  
+  .agregar-imagen {
+    width: 60%;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: transform 0.3s 0.2s;
+  }
+  
+  .mostrar-imagen {
+    transform: scale(1);
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  
+  .marca {
+    width: 40%;
+    background: white;
+  }
+  
+  .contacto {
+    font-weight: 40;
+    font-size: 20px;
+    font-style:oblique;
+    font-weight: bold;
+  }
+  
+  .line {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+  }
+  
